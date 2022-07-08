@@ -1,0 +1,4 @@
+[consul_instances]
+192.168.1.77 consul_bind_address=192.168.1.77 consul_client_address="192.168.1.77 127.0.0.1" consul_node_role=server consul_bootstrap_expect=true
+192.168.1.90 consul_bind_address=192.168.1.90 consul_client_address="192.168.1.90 127.0.0.1" consul_node_role=server consul_bootstrap_expect=true
+192.168.1.92 consul_bind_address=192.168.1.92 consul_client_address="192.168.1.92 127.0.0.1" consul_node_role=server consul_bootstrap_expect=true
