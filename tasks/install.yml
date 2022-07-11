@@ -28,8 +28,8 @@
   delegate_to: 127.0.0.1
 
 - name: Download package checksum file
-  get_url:
-    url: "{{ consul_checksum_file_url }}"
+  copy:
+    src: consul_1.8.7_SHA256SUMS
     dest: "{{ role_path }}/files/consul_{{ consul_version }}_SHA256SUMS"
   become: false
   vars:
